@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_runtime_dependency 'nanoc', '~> 4.3'
-  spec.add_runtime_dependency 'activesupport', ['~> 4.2', '< 6.0']
+  spec.add_runtime_dependency 'activesupport', ['>= 4.2.0', '< 6.0']
   spec.add_runtime_dependency 'liquid', '3.0.6'
 
   spec.add_development_dependency 'rake'
